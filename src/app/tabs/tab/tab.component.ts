@@ -5,12 +5,12 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: './tab.component.html',
   styleUrls: ['./tab.component.scss']
 })
-export class TabComponent implements OnInit {
-  @Input() tabTitle;
-  
-  constructor() { }
 
-  ngOnInit(): void {
-  }
+export class Tab {
 
+  @Input('tabTitle') title: string;
+  @Input() active = false;
+  @Input() isCloseable = false;
+  @Input() template;
+  @Input() dataContext;
 }
