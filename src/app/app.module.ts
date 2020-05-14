@@ -11,6 +11,13 @@ import { PeopleEditComponent } from './people/people-edit/people-edit.component'
 import { ReactiveFormsModule } from '@angular/forms';
 import { DynamicTabsDirective } from './tabs/dynamic-tabs.directive';
 
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatListModule } from '@angular/material/list';
+import { MatIconModule, MatIcon } from '@angular/material/icon';
+
+
+
 
 @NgModule({
   declarations: [
@@ -25,7 +32,11 @@ import { DynamicTabsDirective } from './tabs/dynamic-tabs.directive';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatSidenavModule,
+    MatToolbarModule,
+    MatListModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent],

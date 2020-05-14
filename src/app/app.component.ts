@@ -3,6 +3,7 @@ import { Tabs } from '../app/tabs/tab-container/tab-container.component';
 import { Tab } from '../app/tabs/tab/tab.component';
 
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -12,6 +13,12 @@ export class AppComponent {
   @ViewChild('peopleEdit') editPersonTemplate;
   @ViewChild('about') aboutTemplate;
   @ViewChild(Tabs) tabsComponent;
+
+  links = [
+    'Link 1',
+    'Link 2',
+    'Link 3',
+  ];
 
   people = [
     {
