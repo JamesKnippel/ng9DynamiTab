@@ -17,7 +17,7 @@ export class AppComponent {
     {
       id: 1,
       name: 'Jim',
-      surname: 'Knippel',
+      lastname: 'Knippel',
       twitter: '@Knippel_James'
     }
   ];

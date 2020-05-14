@@ -17,7 +17,7 @@ export class PeopleEditComponent implements OnInit {
     this.personForm = this.fb.group({
       id: '',
       name: '',
-      surname: '',
+      lastname: '',
       twitter: ''
     });
   }
@@ -26,7 +26,7 @@ export class PeopleEditComponent implements OnInit {
     this.personForm.setValue({
       id: this.person.id || -1,
       name: this.person.name || '',
-      surname: this.person.surname || '',
+      lastname: this.person.lastname || '',
       twitter: this.person.twitter || ''
     });
   }
