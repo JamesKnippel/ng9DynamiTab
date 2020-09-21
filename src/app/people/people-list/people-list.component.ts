@@ -1,5 +1,7 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
+/* Comment here!!! */
+
 
 @Component({
   selector: 'app-people-list',
