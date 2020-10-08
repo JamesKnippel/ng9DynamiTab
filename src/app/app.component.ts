@@ -3,6 +3,8 @@ import { Tabs } from '../app/tabs/tab-container/tab-container.component';
 import { Tab } from '../app/tabs/tab/tab.component';
 
 
+// TODO
+// Refctor with RXJS
 
 @Component({
   selector: 'app-root',
