@@ -4,7 +4,8 @@ import { Tab } from '../app/tabs/tab/tab.component';
 
 
 // TODO
-// Refctor with RXJS
+// Refactor with RXJS
+// Maybe convert application to an instantion of IPFS where each tab becomes a different smart contract or link hitherto?
 
 @Component({
   selector: 'app-root',
